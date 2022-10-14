@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * Main - prints the size of various types
  *
  * Return: zero if exited properly, non- zero otherwise
  */
+
 int main(void)
 {
 	int a;
