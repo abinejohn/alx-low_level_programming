@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_tabel - prints the 9 times table
+ * times_table - prints the 9 times table
  * Description: prints the 9 times table
  * Return: void
  */
@@ -24,14 +24,14 @@ void times_table(void)
 			}
 			else if (product < 10)
 			{
-				_putchar(';');
+				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 				_putchar(ones + '0');
 			}
 			else
 			{
-				_putchar(';');
+				_putchar(',');
 				_putchar(' ');
 				_putchar(tens + '0');
 				_putchar(ones + '0');
